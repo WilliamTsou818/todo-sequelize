@@ -1,9 +1,9 @@
 'use strict'
 const bcrypt = require('bcryptjs')
 const SEED_USER = {
-  name: 'Ayame',
-  email: 'ayame@example.com',
-  password: 'ayame'
+  name: 'User1',
+  email: 'user1@example.com',
+  password: '12345678'
 }
 
 module.exports = {
