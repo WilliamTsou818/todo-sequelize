@@ -87,15 +87,20 @@ use todo_sequelize;
 
 <br>
 
-6. 建立種子資料
+6. 建立資料庫欄位
+```
+npx sequelize db:migrate
+```
+
+7. 建立種子資料
 ```
 npx sequelize db:seed:all
 ```
 
-7. 啟動網頁伺服器
+8. 啟動網頁伺服器
 ```
 npm run dev
 ```
-8. 出現下列訊息，表示啟動成功，可點選連結開啟網頁
+9. 出現下列訊息，表示啟動成功，可點選連結開啟網頁
 
 Server is running on http://localhost:3000
